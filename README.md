@@ -42,7 +42,7 @@ It allows users to fetch news articles from multiple sources based on their pref
     ]
 }
 ```
-- **GET** /news/category: Fetch news articles based on the logged-in user's preferred category.
+- **GET** /news/category: Fetch news articles based on the logged-in user's preferred category. The response will be served from cache if requested within expiry time.
 
 - **GET** /news/sources: Fetch news articles based on the logged-in user's preferred sources.
 

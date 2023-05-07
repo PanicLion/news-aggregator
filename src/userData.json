@@ -16,8 +16,8 @@
       "password": "$2b$08$XZJlw6lWac5hbvzZjBlwOe6UwybjNzOOjMfVwLNZaZU.pqTDqFg/O",
       "role": "user",
       "news_preference": {
-        "category": "science",
-        "sources": ["bbc-news", "buzzfeed", "bloomberg"]
+        "category": "entertainment",
+        "sources": ["the-times-of-india", "espn-cric-info", "bbc-news"]
       }
     }
   ]

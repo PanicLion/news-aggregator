@@ -5,6 +5,8 @@ It allows users to fetch news articles from multiple sources based on their pref
 
 > NewsAPI doesn't allow to mix category and sources therefore two different endpoints for fetching news based on user preferences.
 
+> Added logging capability. For simplicity, only logging url, status code, HTTP verb, response time.
+
 ## Endpoints
 
 - **POST** /register: Register a new user.

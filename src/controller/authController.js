@@ -12,7 +12,6 @@ let signup = (req, res) => {
         if (Validator.isUniqueEmail(newUser.email, usersData)) {
             if (Validator.isValidEmail(newUser.email)) {
                 if (Validator.isValidPreferenceSchema(newUser.news_preference)) {
-
                     newUser.password = bcrypt.hashSync(newUser.password, 8);
                     let modifiedUsers = JSON.parse(JSON.stringify(usersData));
                     modifiedUsers.users.push(newUser);

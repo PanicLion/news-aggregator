@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "John Smith",
+      "email": "john@matrix.com",
+      "password": "$2b$08$X0xd1BVNwy6FNCTJvk/bSe5F2/hiZy/fRlpzzmuSNU6rE9bMZLzVy",
+      "role": "user",
+      "news_preference": {
+        "category": "general",
+        "sources": ["bbc-news", "bloomberg"]
+      }
+    },
+    {
+      "name": "Harry Potter",
+      "email": "harry@hogwarts.com",
+      "password": "$2b$08$XZJlw6lWac5hbvzZjBlwOe6UwybjNzOOjMfVwLNZaZU.pqTDqFg/O",
+      "role": "user",
+      "news_preference": {
+        "category": "science",
+        "sources": ["bbc-news", "buzzfeed", "bloomberg"]
+      }
+    }
+  ]
+}
